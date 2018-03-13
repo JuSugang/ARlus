@@ -46,11 +46,12 @@ public class Game1Manager : MonoBehaviour
     {
         Debug.Log("game playing");
     }
-
     public void gameover()
     {
         SceneManager.LoadScene("GameOverScene");
     }
+
+    //일시정지
     public void PauseTrue()
     {
         Debug.Log("pause true");
