@@ -33,7 +33,7 @@ public class Game1Manager : MonoBehaviour
             }
             else
             {
-                Debug.Log(Mathf.Ceil(5 - readycount));
+                //Debug.Log(Mathf.Ceil(5 - readycount));
             }
         }
         
@@ -44,7 +44,7 @@ public class Game1Manager : MonoBehaviour
     } 
     private void playGame()
     {
-        Debug.Log("game playing");
+        //Debug.Log("game playing");
     }
     public void gameover()
     {
