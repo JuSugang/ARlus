@@ -22,7 +22,6 @@ public class playercontrol : MonoBehaviour
         if (Input.GetKey("a"))
         {
             playerAnchor.transform.Rotate(new Vector3(0, 0, -angle), Space.Self);
-
         }
         if (Input.GetKey("d"))
         {
