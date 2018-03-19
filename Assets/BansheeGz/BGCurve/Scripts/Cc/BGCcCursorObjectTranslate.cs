@@ -33,7 +33,6 @@ namespace BansheeGz.BGSpline.Components
             if (transformToMove == null) return;
 
             var pointsCount = Curve.PointsCount;
-
             switch (pointsCount)
             {
                 case 0:
